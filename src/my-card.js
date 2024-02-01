@@ -1,8 +1,13 @@
 import { LitElement, html, css } from 'lit';
 
 /**
- * Now it's your turn. Here's what we need to try and do
- * 1. 
+ * Now it's your turn. Here's what we need to try and do:
+ * 1. Get you HTML from your card working in here 
+ * 2. Get your CSS rescoped as needed to work here
+ * 3. 
+ * 4.
+ * 5.
+ * 6.
  */
 
 export class MyCard extends LitElement {
