@@ -4,15 +4,11 @@ import '../src/polaris-chip.js';
 export default {
   title: 'PolarisChip',
   component: 'polaris-chip',
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 };
 
-function Template({ title, backgroundColor }) {
+function Template({ title }) {
   return html`
     <polaris-chip
-      style="--polaris-chip-background-color: ${backgroundColor || 'white'}"
       .title=${title}
     >
     </polaris-chip>
