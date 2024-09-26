@@ -6,6 +6,8 @@ import { LitElement, html, css } from 'lit';
  * 2. Get your CSS rescoped as needed to work here
  */
 
+import {LitElement, html, css} from 'lit'
+
 export class MyCard extends LitElement {
 
   static get tag() {
@@ -15,6 +17,10 @@ export class MyCard extends LitElement {
   constructor() {
     super();
     this.title = "My card";
+    this.image = "Flower goes here";
+    this.content = "https://i.pinimg.com/originals/5f/ee/67/5fee67cc3c1d3ab72ba898f351bc0e81.jpg";
+
+    
   }
 
   static get styles() {
@@ -24,6 +30,7 @@ export class MyCard extends LitElement {
       }
     `;
   }
+  
 
   render() {
     return html`<div>${this.title}</div>`;
@@ -32,6 +39,8 @@ export class MyCard extends LitElement {
   static get properties() {
     return {
       title: { type: String },
+      image: {type: String},
+      content: {type: String},
     };
   }
 }

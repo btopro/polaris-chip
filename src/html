@@ -1,0 +1,39 @@
+<!--
+
+it is good "accessibility" practice to put h tags for
+headings in the proper order; hence 1,2,3,4 based 
+on 'hierarchy' of how someone should experience 
+the material
+
+-->
+<h1>The Manuka Honey Flower</h1>
+<h2>My favorite tattoo</h2>
+<div class="control-wrapper">
+  <button class="duplicate">Clone Card</button>
+  <button id="bg-change">Change background</button>
+  <button id="change-title">Change title</button>
+  <button id="change-image">Change image</button>
+  <button id="delete-card">delete card</button>
+</div>
+<h2>Pretty Flower</h2>
+<my-card title="Manuka Honey" content="My favorite tattoo" image="https://i.pinimg.com/originals/5f/ee/67/5fee67cc3c1d3ab72ba898f351bc0e81.jpg"></my-card>
+        <my-card title="LA" content="I'm unwilling to ever miss a class again" image="https://images.app.goo.gl/jwghL1Zw2hMz78XZ9"></my-card>
+        <my-card title="LA" content="Worked on this for roughly 4-6 hours and have such little work to show for it gang" image="https://images.app.goo.gl/d7ugV15VnGHuRodq8"></my-card>
+        <my-card title="OOOOO LA LA " content="Two caffinated bevs later and nope still no thoughts" image="https://images.app.goo.gl/cvAxgJwNc5FDmsqu9"></my-card>
+        <my-card title="THIS CODE DOES NOT WORK (imagine lady gaga singing that tho)" content="fr can only recall lady gaga songs so here we are <3" image="https://images.app.goo.gl/JKaWMcppR7qjeD5H7"></my-card>
+    </div>
+    <script type="Card" src="my-card.js"></script>
+    <script>
+<div id="cardlist">
+  <div class="card">
+    <img class="card-image" src="https://i.pinimg.com/originals/5f/ee/67/5fee67cc3c1d3ab72ba898f351bc0e81.jpg" />
+    <div class="card-text">
+      <h3 class="card-title">What is it?</h3>
+      <div class="card-details">
+        <p>
+        It is evergreen, with dense branching and small leaves, and the flowers are white, occasionally pink. The wood is tough and hard. The flowers from which bees collect nectar and pollen are extremely special because they contain properties not found in any other flower.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
