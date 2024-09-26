@@ -18,7 +18,7 @@ export class MyCard extends LitElement {
     super();
     this.title = "My card";
     this.image = "Flower goes here";
-    this.title = "https://i.pinimg.com/originals/5f/ee/67/5fee67cc3c1d3ab72ba898f351bc0e81.jpg";
+    this.content = "https://i.pinimg.com/originals/5f/ee/67/5fee67cc3c1d3ab72ba898f351bc0e81.jpg";
 
     
   }
@@ -39,6 +39,8 @@ export class MyCard extends LitElement {
   static get properties() {
     return {
       title: { type: String },
+      image: {type: String},
+      content: {type: String},
     };
   }
 }
